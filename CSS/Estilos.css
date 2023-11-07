@@ -59,7 +59,13 @@ ul {
   ul li {
     margin: 0;
     padding: 20px;
-
+    text-decoration: underline;
+  }
+  .lista{
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
   }
   
   /* Estilo para los enlaces dentro de los elementos de la lista */
