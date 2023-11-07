@@ -1,0 +1,194 @@
+
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+div{
+    
+    text-align: center;
+}
+
+header{
+  
+    text-align: center;
+    padding: 1px;
+}
+
+p{
+    color: black;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.izq{
+    text-align: left;
+}
+
+ul li {
+    font-family: 'league gothic','sans-serif';
+    font-size: large;
+    display: inline;
+    text-align: center;
+    margin: 25px;
+}
+
+section{
+    text-align: center;
+    margin-right: 20%;
+}
+
+aside{
+    text-align: center;
+    float: right;
+    height: 1170px;
+    width: 297px;
+    margin: 28px;
+}   
+
+/* Estilo para la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  ul li {
+    margin: 0;
+    padding: 20px;
+
+  }
+  
+  /* Estilo para los enlaces dentro de los elementos de la lista */
+  ul li a {
+    text-decoration: none; /* Quita la decoración de subrayado predeterminada de los enlaces */
+    color: var(--oscuro); /* Color del texto */
+    position: relative; /* Necesario para posicionar la línea */
+    font-size: 25px;
+  }
+  footer ul li a {
+    text-decoration: none; /* Quita la decoración de subrayado predeterminada de los enlaces */
+    color: var(--blanco); /* Color del texto */
+    position: relative; /* Necesario para posicionar la línea */
+    font-size: 25px;
+  }
+  
+  /* Estilo para la línea debajo de los enlaces */
+  ul li a::after {
+    content: ""; /* Agrega contenido a través del pseudoelemento ::after */
+    display: block;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  
+  /* Cambia el color de la línea al pasar el cursor sobre los enlaces */
+  ul li a:hover::after {
+    border-color: #efda3a; /* Cambia el color de la línea al azul (#007bff) al pasar el cursor */
+  }
+
+form{
+    margin: 40px;
+}
+
+button{
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+    padding: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 20%;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+  }
+
+  :root{
+    --amarillo: #efda3a;
+    --oscuro:#0c0e0f;
+    --blanco:#ffffff;
+  }
+
+
+header {
+    border-bottom: solid var(--amarillo);
+}
+
+
+header div img {
+    width: 100px;
+    height: 100px;
+}
+.titulo {
+    text-align: center;
+    margin: 60px;
+    background-color: var(--amarillo);
+}
+.subtitulo {
+    text-align: center;
+    margin: 60px;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-style: italic;
+
+}
+.subtitulo1 {
+    text-align: center;
+    margin: 60px;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-style: italic;
+    background-color:  var(--oscuro);
+    color: var(--blanco);
+
+
+}
+.titulo1{
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+    
+}
+.cabecera{
+    height: 300px;
+    width: 410px;
+}
+article{
+    text-align: center;
+}
+article img {
+    transform: scale(1.5);
+    margin: 100px;
+    transform-box: content-box;
+    border-radius: 7px;
+    vertical-align: middle;
+    vertical-align: middle;
+}
+article iframe {
+   
+    margin: 47px;
+    border-radius: 7px;
+    vertical-align: middle;
+    vertical-align: middle;
+}
+
+footer div{
+    vertical-align: middle;
+}
+form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+form * {
+    width: auto;
+    margin: 1PC;
+}
